@@ -8,7 +8,7 @@ import { Toaster } from "react-hot-toast";
 import { Provider } from "react-redux";
 import {configureStore} from "@reduxjs/toolkit";
 import rootReducer from "./reducer";
-
+import { HashRouter } from "react-router-dom";
 
 const store=configureStore({
   reducer:rootReducer,
@@ -19,10 +19,10 @@ root.render(
   
   <React.StrictMode>
     <Provider store = {store}>
-        <BrowserRouter>
+        <HashRouter>
           <App /> 
           <Toaster />
-        </BrowserRouter>  
+        </HashRouter>  
     </Provider>
   </React.StrictMode>
 
