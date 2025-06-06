@@ -1,0 +1,9 @@
+npm i express
+npm i dotenv
+npm i nodemon
+npm i mongoose
+npm i cookie-parser
+npm i jsonwebtoken
+npm i nodemailer
+npm i otp-generator 
+npm i bcrypt

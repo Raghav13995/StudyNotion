@@ -1,0 +1,51 @@
+
+
+
+npm i react-icons
+npm i react-router-dom
+npm i react-hot-toast
+npm i concurrently  
+npm i react-type-animation
+npm i @reduxjs/toolkit
+npm i react-redux
+npm i react-otp-input
+npm i @ramonak/react-progress-bar
+npm install react-rating-stars-component
+npm i react-dropzone
+npm i video-react  
+
+
+
+<BrowserRouter>
+<Toaster />
+
+
+// script added: -  
+"server": "cd server && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+
+
+
+::::: this is to make the roght side scroll bar small ::::: 
+
+*::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #000814;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #afb2bf;
+    border-radius: 10px;
+    visibility: hidden;
+  }
+  
+  *:active::-webkit-scrollbar-thumb,
+  *:focus::-webkit-scrollbar-thumb,
+  *:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
